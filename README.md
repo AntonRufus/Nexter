@@ -1,6 +1,6 @@
 # Nexter
 
-## Moder design of a website for the sale of real estate made on the basis of Grid Layout.
+## Modern website with responsive design for real estate business made on the basis of Grid Layout.
 
 #### https://antonrufus.github.io/nexter/
 
