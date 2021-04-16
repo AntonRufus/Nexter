@@ -5,7 +5,8 @@
   font-size: 1.4rem;
 
   @media only screen and (max-width: $bp-medium) {
-    padding: 4rem 8rem;
+    padding: 5rem 8rem 2rem 8rem;
+    line-height: 1.8;
   }
 
   .nav {
@@ -43,7 +44,7 @@
     transition: all .5s;
 
     @media only screen and (max-width: $bp-medium) {
-      width: 65%;
+      display: grid;
       margin: 3rem auto 0;
       line-height: 1.8;
     }
