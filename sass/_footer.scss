@@ -4,6 +4,10 @@
   padding: 8rem;
   font-size: 1.4rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    padding: 4rem 8rem;
+  }
+
   .nav {
     list-style: none;
 
@@ -37,6 +41,12 @@
     margin-top: 6rem;
     text-align: center;
     transition: all .5s;
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 65%;
+      margin: 3rem auto 0;
+      line-height: 1.8;
+    }
 
     &__link:link,
     &__link:visited {
